@@ -49,7 +49,7 @@ services:
         - app_network
   
   postgreSQL:
-    image: postgres:14-alpine
+    image: postgres:13-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data
     expose:
